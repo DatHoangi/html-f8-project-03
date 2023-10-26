@@ -77,7 +77,10 @@
         />
         <link rel="manifest" href="./assets/favicon/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
         <meta name="theme-color" content="#ffffff" />
 
         <!-- Embed fonts -->
@@ -93,6 +96,136 @@
         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
     <body>
-        <h1>Hello guys</h1>
+        <header class="header">
+            <div class="container">
+                <!-- Header top -->
+                <div class="header-top">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="#!">
+                            <img
+                                src="./assets/svg/logo.svg"
+                                alt="Modulars Logo"
+                                class="logo-link"
+                            />
+                        </a>
+                    </div>
+                    <!-- Navbar -->
+                    <div class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Blog</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Active -->
+                    <div class="active">
+                        <button class="btn">Sign Up</button>
+                    </div>
+                </div>
+
+                <!-- Hero -->
+                <section class="hero">
+                    <!-- Hero content -->
+                    <section class="hero__content">
+                        <h1 class="hero__heading section-heading">
+                            We’re a creative design agency.
+                        </h1>
+                        <p class="hero__desc">
+                            A brilliant, modular agency template for startup’s
+                            build yours toady.
+                        </p>
+                        <div class="hero__cta">
+                            <button class="btn">Get in touch</button>
+                            <div class="hero__watch">
+                                <div class="half-circle-border">
+                                    <div class="play-btn">
+                                        <svg
+                                            width="8"
+                                            height="10"
+                                            viewBox="0 0 8 10"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M7.48979 4.22586C8.15106 4.61996 8.13773 5.58212 7.4658 5.95775L1.49682 9.29454C0.824887 9.67017 -0.00170366 9.17755 0.00896126 8.40782L0.103701 1.57014C0.114366 0.800411 0.954284 0.330874 1.61555 0.724974L7.48979 4.22586Z"
+                                                fill="currentColor"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="hero__watch-video">Watch Video</div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Hero media -->
+                    <div class="hero__media">
+                        <figure class="hero__images">
+                            <img
+                                src="./assets/img/hero-01.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </figure>
+                        <figure class="hero__images">
+                            <img
+                                src="./assets/img/hero-02.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </figure>
+                        <figure class="hero__images">
+                            <img
+                                src="./assets/img/hero-03.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </figure>
+                    </div>
+
+                    <!-- Hero decor -->
+                    <div class="hero-decor">
+                        <img
+                            src="./assets/svg/decor-01.svg"
+                            alt=""
+                            class="hero-decor__img"
+                        />
+                        <img
+                            src="./assets/svg/decor-02.svg"
+                            alt=""
+                            class="hero-decor__line"
+                        />
+                    </div>
+                    <div class="hero-decor__02">
+                        <img
+                            src="./assets/svg/decor-01.svg"
+                            alt=""
+                            class="hero-decor__img"
+                        />
+                        <img
+                            src="./assets/svg/decor-02.svg"
+                            alt=""
+                            class="hero-decor__line"
+                        />
+                    </div>
+                    <div class="hero__bg"></div>
+                </section>
+            </div>
+        </header>
     </body>
 </html>
