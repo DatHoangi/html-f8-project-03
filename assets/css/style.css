@@ -7,6 +7,7 @@
     --text-color-black-gray: #575d5e;
     --primary-color-black: #152427;
     --primary-color-black-green: #143c3c;
+    --scondery-color-light-green: #e2eddf;
 }
 
 html {
@@ -148,8 +149,8 @@ button {
 
 .hero {
     display: flex;
-    margin-top: 60px;
     justify-content: space-between;
+    padding: 60px 0 165px;
 }
 
 .hero__content {
@@ -296,3 +297,37 @@ button {
     z-index: -10;
 }
 
+/* Logo branch */
+.logo-branch {
+    font-family: "Poppins", sans-serif;
+    margin-top: 42px;
+    height: 201px;
+}
+
+.logo-branch__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 122px;
+    border-radius: 100.5px;
+    background: var(--scondery-color-light-green);
+}
+
+.logo-branch-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-branch-name {
+    font-size: 3.1rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--primary-color-black-green);
+}
+
+.logo-branch__icon {
+    width: 40px;
+    height: 46px;
+    margin-right: 3px;
+}
