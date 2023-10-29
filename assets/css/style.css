@@ -9,6 +9,7 @@
     --primary-color-black-green: #143c3c;
     --scondery-color-light-green: #e2eddf;
     --text-color-light-gray: #7d8188;
+    --scondery-color-gray: #6a8383;
 }
 
 html {
@@ -812,4 +813,111 @@ button {
 
 .process__item:nth-child(3) .process-list__desc {
     margin-left: 242px;
+}
+
+/* project */
+.project {
+    font-family: "Poppins", sans-serif;
+    margin-top: 148px;
+    background: var(--primary-color-black-green);
+    padding: 116px 130px 63px;
+}
+
+.project-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-heading {
+    width: 457px;
+    color: #e7f9f9;
+}
+
+.project__desc {
+    margin-bottom: 13px;
+    width: 590px;
+    height: 59px;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+    color: var(--scondery-color-gray);
+}
+
+.project-button {
+    display: flex;
+    align-items: center;
+    column-gap: 26px;
+}
+
+.project-button:hover .project__link {
+    color: #80a07b;
+}
+.project-button:hover .project__icon {
+    color: #80a07b;
+}
+
+.project__link {
+    color: #fff;
+    font-family: "Public Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.55; /* 155.556% */
+}
+
+.project__icon {
+    width: 20px;
+    height: 10px;
+    color: #fff;
+}
+
+.project__video {
+    border-radius: 22px;
+    width: 100%;
+    height: 544px;
+    object-fit: cover;
+}
+
+.project-media {
+    margin-top: 65px;
+    position: relative;
+}
+
+.project-play__btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000b2;
+}
+
+.project-play {
+    width: 36px;
+    height: 35px;
+    color: #fff;
+}
+
+.project-decor {
+    position: absolute;
+    display: block;
+    content: "";
+    bottom: 228px;
+    right: -63px;
+}
+
+.project-decor__img {
+    position: absolute;
+    top: 79px;
+    right: 0;
 }
