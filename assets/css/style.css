@@ -1020,6 +1020,7 @@ button {
 .blog-top__title {
     margin-top: 10px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -1140,4 +1141,3 @@ button {
     line-height: 1.2; /* 120% */
     color: var(--text-color-black-gray);
 }
-
