@@ -412,6 +412,7 @@ button {
 .service__btn:hover {
     background-color: var(--primary-color);
     color: #fff;
+    cursor: pointer;
 }
 
 .service-body {
